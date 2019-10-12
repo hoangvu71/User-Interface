@@ -1,179 +1,184 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-    display: block;
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
 }
-body {
-    line-height: 1;
+body {
+    line-height: 1;
 }
-ol, ul {
-    list-style: none;
+ol, ul {
+    list-style: none;
 }
-blockquote, q {
-    quotes: none;
+blockquote, q {
+    quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-    content: '';
-    content: none;
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
 }
-table {
-    border-collapse: collapse;
-    border-spacing: 0;
-}
-
-/* Set every element's box-sizing to border-box */
-* {
-    box-sizing: border-box;
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
-html, body {
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
 }
 
-h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
 }
 
-/* Your code starts here! */
-header {
-    margin: 30px auto;
-    width: 900px;
-    text-align: center;
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
 }
 
-header nav {
-    display: inline-block;
+/* Your code starts here! */
+header {
+    margin: 30px auto;
+    width: 900px;
+    text-align: center;
 }
 
-header nav a {
-    display: inline-block;
-    width: 105px;
-    text-decoration: none;
-    color: lightgrey;
-    text-shadow: 0px 1px rgb(192, 191, 191);
-    font-size: 90%;
+header nav {
+    display: inline-block;
 }
 
-.logo {
-    margin-left: 60px;
-    vertical-align: middle;
+header nav a {
+    display: inline-block;
+    width: 105px;
+    text-decoration: none;
+    color: lightgrey;
+    text-shadow: 0px 1px rgb(192, 191, 191);
+    font-size: 90%;
 }
 
-.container_phrase_img {
-    text-align: center;
-    vertical-align: middle;
+.logo {
+    margin-left: 60px;
+    vertical-align: middle;
 }
 
-.container_phrase_img div{
-    display: inline-block;
+.container_phrase_img {
+    text-align: center;
+    height: 60%;
 }
 
-.catch_phrase {
-    display: inline-block;
-    text-transform: uppercase;
-    font-weight: bolder;
-    font-style: italic;
-    font-size: 65px;
-    text-align: center;
-    font-family: 'Luckiest Guy';
-    margin-right: 50px;
+.container_catch_phrase {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.container_header_img {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+.catch_phrase {
+    display: block;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 65px;
+    text-align: center;
+    font-family: 'Luckiest Guy';
+    margin-right: 50px;
 }
 
 .box_started{
-    border: 2px solid darkgrey;
-    color: darkgrey;
-    width: 130px;
-    height: 40px;
-    padding-top: 10px;
-    text-align: center;
-    margin-left: 430px;
-    margin-top: 20px;
-    margin-bottom: 50px;
+    border: 2px solid darkgrey;
+    color: darkgrey;
+    width: 130px;
+    height: 40px;
+    padding-top: 10px;
+    text-align: center;
+    margin: 0 auto;
 }
-.header_img {
-    display: inline-block;
+.header_img {
+    display: inline-block;
 }
 
-.line_crossed {
-    width: 900px;
-    margin: 0 auto;
-    border: 1px solid black;
-    margin-bottom: 50px;
+.line_crossed {
+    width: 900px;
+    margin: 0 auto;
+    border: 1px solid black;
+    margin-bottom: 50px;
 }
 
-.features_about {
-    display: inline;
-    margin-left: 280px;
+.features_about {
+    display: inline;
+    margin-left: 280px;
 }
 
-.container1 {
-    display: inline-block;
-    width: 32%;
-    margin-bottom: 50px;
+.container1 {
+    display: inline-block;
+    width: 32%;
+    margin-bottom: 50px;
 }
 
-.middle_container {
-    text-align: center;
-    margin-bottom: 50px;
+.middle_container {
+    text-align: center;
+    margin-bottom: 50px;
 }
 
 .services_product_vision{
-    display: inline-block;
-    text-align: center;
+    display: inline-block;
+    text-align: center;
 }
 
 .container2{
-    display:inline-block;
-    width: 20%;
-    text-align: left;
-    margin-bottom: 50px;
+    display:inline-block;
+    width: 20%;
+    text-align: left;
+    margin-bottom: 50px;
 }
 
-footer {
-    width: 900px;
-    margin: 0 auto;
+footer {
+    width: 900px;
+    margin: 0 auto;
 }
 .state_addre{
-    margin-bottom: 10px;
+    margin-bottom: 10px;
 }
 
 .phone_num{
-    margin-bottom: 10px;
+    margin-bottom: 10px;
 }
 
-.email {
-    margin-bottom: 30px;
+.email {
+    margin-bottom: 30px;
 }
 
 .copyright{
-    text-align: center;
+    text-align: center;
 }
